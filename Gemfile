@@ -20,4 +20,4 @@ group :production do
   gem 'pg',             '0.17.1'
   gem 'rails_12factor', '0.0.2'
 end
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x32_mingw, :jruby]
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
