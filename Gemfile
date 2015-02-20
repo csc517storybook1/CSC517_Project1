@@ -1,5 +1,5 @@
 source 'http://rubygems.org'
-ruby '2.1.5'
+
 gem 'rails',        '4.2.0'
 gem 'sass-rails',   '5.0.1'
 gem 'uglifier',     '2.5.3'
@@ -21,3 +21,4 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+ruby '2.1.5'
