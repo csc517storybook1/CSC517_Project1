@@ -1,11 +1,12 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Please read this file when you open the webpage.
 
-Things you may want to cover:
 
-* Ruby version
+
+* The login infomation for admins:
+	user:
+	passwaord:
 
 * System dependencies
 
