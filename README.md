@@ -3,12 +3,13 @@
 Please read this file when you open the webpage.
 
 
+The login infomation for admins:
+	*user:
+	*passwaord:
 
-* The login infomation for admins:
-	user:
-	passwaord:
-
-* System dependencies
+The login information for existing developpers:
+	*user:
+	*password:
 
 * Configuration
 
