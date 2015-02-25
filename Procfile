@@ -1,1 +1,0 @@
-web: bundle exec routes -p $PORT -c ./config/routes.rb
