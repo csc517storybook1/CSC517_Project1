@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'admins/new'
+
   resources :projects
 
   resources :users
