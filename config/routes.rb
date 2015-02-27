@@ -2,10 +2,9 @@ Rails.application.routes.draw do
 
   root 'staticpages#home'
 
-  get 'staticpages/help'
-
-  get 'staticpages/about'
-  get 'staticpages/contact'
+  get 'help'    => 'staticpages#help'
+  get 'about'   => 'staticpages#about'
+  get 'contact' => 'staticpages#contact'
   #get 'admins/new'
 
   resources :projects
