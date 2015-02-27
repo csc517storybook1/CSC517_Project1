@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   get 'staticpages/help'
 
   get 'staticpages/about'
+  get 'staticpages/contact'
   #get 'admins/new'
 
   resources :projects
