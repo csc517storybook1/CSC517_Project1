@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150227155857) do
+ActiveRecord::Schema.define(version: 20150227165254) do
 
   create_table "admins", force: :cascade do |t|
     t.string   "name"
@@ -24,9 +24,12 @@ ActiveRecord::Schema.define(version: 20150227155857) do
   create_table "developers", force: :cascade do |t|
     t.string   "name"
     t.string   "email"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",      null: false
+    t.datetime "updated_at",      null: false
+    t.string   "password_digest"
   end
+
+  add_index "developers", ["email"], name: "index_developers_on_email", unique: true
 
   create_table "projects", force: :cascade do |t|
     t.text     "Title"

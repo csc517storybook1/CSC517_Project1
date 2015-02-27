@@ -6,7 +6,8 @@ Rails.application.routes.draw do
   get 'about'   => 'staticpages#about'
   get 'contact' => 'staticpages#contact'
   #get 'admins/new'
-
+  resources :admins
+  resources :developers
   resources :projects
 
   #get 'welcome/index'
