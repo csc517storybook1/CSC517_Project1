@@ -1,10 +1,13 @@
 Rails.application.routes.draw do
 
+  get 'developers/new'
+
   root 'staticpages#home'
 
   get 'help'    => 'staticpages#help'
   get 'about'   => 'staticpages#about'
   get 'contact' => 'staticpages#contact'
+  get 'signup'  => 'developers#new'
   #get 'admins/new'
   resources :admins
   resources :developers
